@@ -1,0 +1,486 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Musico</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style src="css/bootstrap-theme.css"></style>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+
+    
+    <style>
+        /* .clock {
+            font-size: 1em;
+            background: #000000c2;
+            color: #fff;
+            width: fit-content;
+            padding: 10px;
+            border-radius: 90px;
+            position: fixed;
+            top: 91.5%;
+            left: 3%;
+        }
+       
+/* 
+        body::-webkit-scrollbar {
+        width: 1em;
+        }
+        
+        body::-webkit-scrollbar-track {
+        box-shadow: outset 0 0 6px rgba(56, 54, 54, 0.3);
+        width: 5px;
+        }
+        
+        body::-webkit-scrollbar-thumb {
+        background-color: rgb(7, 7, 7);
+        outline: 1px solid rgb(255, 0, 0);
+        width: 5px;
+        height: 20px;
+        } */
+
+        /* ::-webkit-scrollbar {
+width: 12px;
+}
+
+::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px     rgba(0,0,0,0.3); 
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px     rgba(0,0,0,0.5); 
+} */
+
+::-webkit-scrollbar {
+	width: 30px;
+	display: block;
+	position: relative;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 15px;
+	width: 20px;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 10px;
+
+}
+
+::-webkit-scrollbar-thumb {
+	background: silver;
+	border-radius: 15px;
+	display: block;
+	position: relative;
+	border:  10px solid transparent;
+	z-index: -1;
+	background: 	linear-gradient(top, transparent 5px, black 5px, black 50%, transparent 50%),	linear-gradient(bottom, transparent 5px, black 5px, black 50%, transparent 50%),
+	radial-gradient(circle, black 5px, transparent 5px) -2px 59%,
+	radial-gradient(circle, black 5px, transparent 5px) -2px 41%;
+	background-size: 100% 100%, 100% 100%, 15px 50%, 15px 50%;
+	background-clip: padding-box;
+}
+
+::-webkit-scrollbar-corner {
+	background: transparent;
+}
+
+
+::-webkit-scrollbar-track {
+	box-shadow: 1px 1px 5px rgba(0,0,0,.2) inset;
+}
+
+    </style>
+
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+
+    <!-- header-start -->
+    <header>
+        <div class="header-area wow bounceInDown">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid">
+                    <div class="header_bottom_border">
+                        <div class="row align-items-center">
+
+
+                          <div class="col-sm-12 visible-md visible-sm visible-xs">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                          </div>
+
+                          <div class="col-xl-3 col-lg-2 d-lg-block visible-lg">
+                            <div class="logo ">
+                                <a class="brand" href="index.html">
+                                    <img class="logo-img" src="img/companylogo.jpeg" alt="">
+                                </a>
+                            </div>
+                          </div>
+
+
+
+                            <div class="col-xl-6 col-lg-7 visible-lg">
+                                <div class="main-menu  d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a class="active" href="#"> الرئيسية </a></li>
+                                            <li><a href="about.html"> معلومات عننا </a></li>
+                                            <!-- <li><a href="track.html">  </a></li> -->
+                                            <li><a href="#">مناطق <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="zehraa.html"> شارع الزهراء </a></li>
+                                                    <li><a href="city.html"> شارع سيتي </a></li>
+                                                    <li><a href="15st.html"> شارع ال15 </a></li>
+                                                </ul>
+                                            </li>
+
+                                            <!-- <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                     <li><a href="elements.html">elements</a></li>
+                                                </ul>
+                                            </li> -->
+                                            
+                                            <li><a href="contact.html"> اتصل بنا </a></li>
+                                            <li><a href="#form" data-toggle="modal" data-target="#exampleModal"> دخول </a></li>
+                                            
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-3">
+                              <div class="logo ">
+                                  <a class="brand" href="index.html">
+                                      <!-- <img src="img/logo.png" alt=""> -->
+                                      الشركة العربية لاستثمار المنازل
+                                  </a>
+                              </div>
+                          </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+
+    <!-- bradcam_area  -->
+    <div class="bradcam_area breadcam_bg_2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="bradcam_text text-center wow fadeInUp">
+                        <h3> الشركة العربية لاستثمار المنازل </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ bradcam_area  -->
+
+
+    <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+	Launch demo modal
+  </button> -->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class=" col-lg-12 col-md-6 " >
+                        
+                        <form class="log" action="">
+                            <a class="Register" id="form">  انتقل الي انشاء حساب جديد </a>
+                            <div class="form-group">
+                            <label for="email"> : اكتب الايميل الخاص بك </label>
+                            <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                            <label for="pwd"> : كلمة المرور </label>
+                            <input type="password" class="form-control" id="pwd">
+                            </div>
+                            <div class="checkbox">
+                            <label><input type="checkbox"> تذكرني </label>
+                            </div>
+                            <button type="button" class="btn btn-sucsess sign">تسجيل الدخول </button>
+                            <!-- <a class="Register"> Register </a> -->
+                        </form>
+
+                        <form class="reg" action="">
+                            <div class="form-group">
+                                <a class="Register" id="form"> انتقل الي تسجيل الدخول </a>
+                            <label for="text"> : الاسم الاول  </label>
+                            <input type="email" class="form-control" id="Fname">
+
+                            <label for="text"> : اسم العائلة </label>
+                            <input type="email" class="form-control" id="Lname">
+
+                            <label for="email">: الايميل الخاص بك </label>
+                            <input type="email" class="form-control" id="email2">
+                            </div>
+
+                            <div class="form-group">
+                            <label for="pwd"> : كلمة المرو </label>
+                            <input type="password" class="form-control" id="pwd2">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="pwd"> : اعد كتابة كلمة المرور </label>
+                                <input type="password" class="form-control" id="pwd3">
+                            </div>
+                          
+                            <button type="button" id="show" class="btn btn-sucsess sign"> : اظهر كلمة المرور </button>
+
+                            <button type="button" class="btn btn-sucsess sign"> انشاء حساب جديد </button>
+                            
+                        </form>
+
+                    </div>
+                </div>
+              </div>	
+        </div>
+		<!-- <div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		  <button type="button" class="btn btn-primary">Save changes</button>
+		</div> -->
+	  </div>
+	</div>
+  </div>
+
+
+    <section class="company-info">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-12 comp-logo">
+                    <div class="col-lg-4"> </div>
+                    <img class="col-lg-4 img-fluid wow fadeIn img" alt="Responsive image" src="img/logo.jpeg">
+                </div>
+
+                <div class="col-lg-8 col-md-12 about-company">
+                    <div class="col-lg-12 col-sm-12">
+                        <img class="img-fluid company" alt="Responsive image" src="img/comp.jpeg">
+                    </div>
+
+                    <div class="col-lg-12 col-sm-12 wow bounceInUp">
+                        <p class="comopany-text">
+                            مع تطور ونمو السوق العقاري في السنوات الاخيرة ظهرت حاجة السوق الي شركات تسويق عقاري الا ان عشوئية السوق العقاري اطاحت بسمعة شركات التسويق العقاري. 
+                            <br>
+                            <br>
+                            فكرة شركات التسويق العقاري تعتمد علي مساعدة المشتريين علي اختيار افضل الفرص العقارية المناسبة لاحتياجتهم وامكانيتهم حيث انها تسوق العديد من المشروعات العقارية في وقت واحد وفي الاخير تحصل علي عمولتها من شركة التطوير العقاري، كما ان بعض الشركات العقاري تسوق عقارات لصالح افراد.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- footer start -->
+    <footer class="footer">
+      <div class="footer_top">
+          <div class="container">
+              <div class="row footer-raw">
+                  <div class="col-xl-6 col-md-6 wow slideInLeft"  >
+                          <div class="footer_widget">
+                                  <h3 class="footer_title">
+                                          خدمات
+                                  </h3>
+                              <div class="subscribe-from">
+                                      <form action="#">
+                                              <input type="text" placeholder="اكتب ايميلك">
+                                              <button type="submit" > اشترك </button>
+                                          </form>
+                              </div>
+                              <p class="sub_text">نرجو ارسال الايميل لتتمكن من متابعة عروضنا</p>
+                              </div>
+                  </div>
+                  <div class="col-xl-5 col-md-5 offset-xl-1 wow slideInRight"   >
+                      <div class="footer_widget">
+                              <h3 class="footer_title">
+                                      اتصل بنا
+                              </h3>
+                          <ul>
+                              <li><a href="#">conbusi@support.com
+                                  </a></li>
+                              <li><a href="#">+10 873 672 6782
+                                  </a></li>
+                              <li><a href="#">600/D, Green road, Kings Garden NewYork-6732</a></li>
+                          </ul>
+                          <div class="socail_links">
+                              <ul>
+                                  <li>
+                                      <a href="#">
+                                          <i class=" fa fa-facebook "></i>
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#">
+                                          <i class="fa fa-google-plus"></i>
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#">
+                                          <i class="fa fa-twitter"></i>
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#">
+                                          <i class="fa fa-youtube-play"></i>
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#">
+                                          <i class="fa fa-instagram"></i>
+                                      </a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="clock wow bounceInDown"></div>
+
+
+
+      
+  </footer>
+  <!--/ footer end  -->
+
+
+<!-- JS here -->
+<script src="js/vendor/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/ajax-form.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/scrollIt.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+
+<!--contact js-->
+<script src="js/contact.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/jquery.form.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/mail-script.js"></script>
+
+<script src="js/main.js"></script>
+<script src="js/main2.js"></script>
+
+
+<script>
+    function clock() {// We create a new Date object and assign it to a variable called "time".
+
+    var session = "AM";
+   
+    var time = new Date(),
+        
+        // Access the "getHours" method on the Date object with the dot accessor.
+        hours = time.getHours(),
+        
+        // Access the "getMinutes" method with the dot accessor.
+        minutes = time.getMinutes(),
+        
+        
+        seconds = time.getSeconds();
+
+
+        if(hours > 12){
+                hours = hours - 12;
+                session = "PM";
+        }
+
+
+    document.querySelectorAll('.clock')[0].innerHTML = harold(hours) + ":" + harold(minutes) + ":" + harold(seconds) + " (" + session + ")"  ;
+    
+    function harold(standIn) {
+        if (standIn < 10) {
+        standIn = '0' + standIn
+        }
+        return standIn;
+    }
+    }
+    setInterval(clock, 1000);
+
+
+
+    // function showTime(){
+    //         var date = new Date();
+    //         var h = date.getHours(); // 0 - 23
+    //         var m = date.getMinutes(); // 0 - 59
+    //         var s = date.getSeconds(); // 0 - 59
+    //         var session = "AM";
+
+    //         if(h == 0){
+    //             h = 12;
+    //         }
+
+    //         if(h > 12){
+    //             h = h - 12;
+    //             session = "PM";
+    //         }
+
+    //         h = (h < 10) ? "0" + h : h;
+    //         m = (m < 10) ? "0" + m : m;
+    //         s = (s < 10) ? "0" + s : s;
+
+    //         var time = h + ":" + m + ":" + s + " " + session;
+    //         document.getElementById("MyClockDisplay").innerText = time;
+    //         document.getElementById("MyClockDisplay").textContent = time;
+
+    //         setTimeout(showTime, 1000);
+
+    //         }
+
+    //         showTime();
+    
+
+
+
+</script>
+
+</body>
+
+</html>

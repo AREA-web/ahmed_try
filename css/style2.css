@@ -1,0 +1,834 @@
+  body, html {
+    padding: 0 0 ;
+    align-items: center;
+    justify-content: center;
+    font-family: 'comic sans ms';
+    transition: all 2s;
+  }
+
+  .menus:hover{
+    box-shadow: 5px 10px 10px;
+  }
+  
+  .blog-entry:hover{
+    box-shadow: 5px 13px 10px;
+    transition: all .5s ease-in-out;
+  }
+  
+  .staff:hover{
+    transform: scale3d(1.1 , 1.1 , 1.1 );
+    box-shadow: 5px 13px 10px;
+    transition: all .5s ease-in-out;
+  }
+  
+  .ftco-footer .ftco-footer-widget ul li a:hover span{
+    color:red;
+  }
+
+  .navbar{
+      padding: 26px;
+      background-color: rgba(0, 0, 0, 0.068);
+      border: none;
+  }
+
+  .navbar-inverse .navbar-nav>li>a{
+    color: #fff;
+  }
+
+  #up {
+      border-radius: 5px;
+      background-color: burlywood;
+  }
+
+  .top {
+    background: transparent !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    background: rgba(255, 255, 255, 0.05) !important;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    }
+
+    .car-img{
+        width: 100%;
+        /* height: max-content; */
+        height: 794px;
+
+    }
+/*  */
+
+
+    .cover-imag{
+        background-color: rgba(0, 0, 0, 0.637);
+    }
+
+    .menu-img {
+        width: 90px;
+        height: 90px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center
+    }
+
+    .featured-menus {
+        width: 100%;
+        margin-bottom: 20px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        border-radius: 5px;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    @media (min-width: 1800px){
+    .featured .featured-menus .text h3 {
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .featured .featured-menus .text p {
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 20px;
+    }
+
+    .ftco-section{
+        margin: 41px 0px;
+    }
+
+    }
+        
+    @media screen and (min-width: 768px){
+
+    .carousel-caption {
+        right: 0;
+        left: 0;
+        padding-bottom: 0;
+        top: 0;
+        background: #0000008c;
+        width: 100%;
+        bottom: 0;
+        padding-top: 22%;
+    }
+
+    }
+
+    .subheading {
+        font-size: 80px;
+        color: #c8a97e;
+        font-weight: normal;
+        font-family: "Great Vibes", cursive;
+        margin-bottom: 0;
+        line-height: 1;
+    }
+
+    .wrap-about .time span a {
+        font-size: 30px;
+        font-weight: 700;
+        transition: .3s all ease;
+        color: #c8a97e;
+        display: block;
+        text-decoration: none;
+        margin-top: 50px 0;
+    }
+
+    .ftco-wrap-about .img {
+        width: 100%;
+        height: 500px ;
+    }
+
+    .ftco-wrap-about{
+        margin: 41px 0;
+    }
+
+    .img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .ab {
+        width: 100%;
+    }
+
+    .img-1{
+        margin-top: -30px ;
+    }
+     
+    .img-2{
+        margin-bottom: -30px ;
+    }
+
+    /* */
+    /* Column Grids End */
+
+    .fa-user-friends , .fa-2x { margin: 0 auto; float: none; display: table; color: #c8a97e; font-size: 25px; transition: all .5s ease-in-out; }
+
+    .count-side{
+        color: #000e;
+        font-size: 19px;
+    }
+
+    .mb-4{
+        margin-top: -44px;
+        font-size: 40px ;
+        margin-bottom: 30px; 
+    }
+
+    .bg-light{
+        background: #795548;
+        padding: 60px 0 ;
+    }
+
+    .serv-ico{
+        font-size: 80px;
+        color: #c8a97e;
+    }
+
+    .f-cards{
+        padding: 60px 0;
+    }
+
+    .img-card{
+        width: 100%;
+    }
+
+    .menu-img-2{
+        margin: 0;
+        padding: 0;
+    }
+
+    .menus{
+        padding: 0;
+        transition: all .5s;
+    }
+
+    .staff{
+        margin: 20px 0px;
+    }
+
+    .btn{
+        background-color: #c8a97e;
+        border: 1px solid #c8a97e;
+        transition: all .3s;
+
+    }
+
+    .btn:hover{
+        background-color: #fff;
+        color: black;
+        border: 1px solid #c8a97e;
+        transition: all .3s;
+    }
+
+    .price {
+        position: absolute;
+        top: 5px;
+        right: 5px; 
+        font-size: 20px;
+        color: #c8a97e;
+        font-weight: 600;
+        line-height: 1.3;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    ul li {
+        list-style-type: none;
+        display: inline;
+
+    }
+
+    .fa-3x{
+        color: #c8a97e;
+        font-size: 20px;
+    }
+
+    .form-foot{
+        /* background-position: fixed; */
+        background: url("../images/bg_1.jpg") 50% 50% fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 41px 0;
+        padding: 40px 0;
+    }
+
+    .makereservation{
+        width: 100%;
+        background: rgba(12, 10, 10, 0.507);
+        padding: 5px 50px 50px 50px !important;
+        font-size: 17px;
+        line-height: 3;
+        font-weight: 400;
+        color: #666666;
+        transition: 1s all;
+    }
+
+    .makereservation:hover{
+        background: #fff;
+    }
+
+    .form-control{
+        outline: none;
+        border-radius: 0;
+    }
+
+    .form-control:focus{
+        outline: none;
+        border: 1px solid rgb(233, 1, 1);
+        box-shadow: inset 0 1px 1px rgba(236, 10, 10, 0.075);
+        
+    }
+
+    input[value="Make a Reservation"]{
+        padding: 10px 30px;
+        border-radius: 0;
+    }
+
+    /*last carousel*/
+
+    main {
+        width: 100%;
+        height: 100%;
+        margin-top: 237px ;
+        padding: 0;
+    }
+
+    #carousel {
+        position: relative;
+        height: 400px;
+        top: 50%;
+        transform: translateY(-50%);
+        overflow: hidden;
+      }
+      #carousel div {
+        position: absolute;
+        transition: transform 1s, left 1s, opacity 1s, z-index 0s;
+        opacity: 1;
+      }
+      #carousel div img {
+        width: 400px;
+        transition: width 1s;
+      }
+      #carousel div.hideLeft {
+        left: 0%;
+        opacity: 0;
+        transform: translateY(50%) translateX(-50%);
+      }
+      #carousel div.hideLeft img {
+        width: 200px;
+      }
+      #carousel div.hideRight {
+        left: 100%;
+        opacity: 0;
+        transform: translateY(50%) translateX(-50%);
+      }
+      #carousel div.hideRight img {
+        width: 200px;
+      }
+      #carousel div.prev {
+        z-index: 5;
+        left: 30%;
+        transform: translateY(50px) translateX(-50%);
+      }
+      #carousel div.prev img {
+        width: 300px;
+      }
+      #carousel div.prevLeftSecond {
+        z-index: 4;
+        left: 15%;
+        transform: translateY(50%) translateX(-50%);
+        opacity: 0.7;
+      }
+      #carousel div.prevLeftSecond img {
+        width: 200px;
+      }
+      #carousel div.selected {
+        z-index: 10;
+        left: 50%;
+        transform: translateY(0px) translateX(-50%);
+      }
+      #carousel div.next {
+        z-index: 5;
+        left: 70%;
+        transform: translateY(50px) translateX(-50%);
+      }
+      #carousel div.next img {
+        width: 300px;
+      }
+      #carousel div.nextRightSecond {
+        z-index: 4;
+        left: 85%;
+        transform: translateY(50%) translateX(-50%);
+        opacity: 0.7;
+      }
+      #carousel div.nextRightSecond img {
+        width: 200px;
+      }
+      
+      /* .buttons {
+          display: none;
+        position: relative;
+        left: 33%;
+        top: -385px;
+      } */
+
+      @media (min-width: 768px) {
+        .buttons {
+            display: block;
+          position: absolute;
+          left: 33%;
+          top: 10pxpx;
+        }
+    } /*small*/
+
+      .p-3{
+        font-size: 14px;
+        margin: -215px 60px 0px 60px;
+        padding: 20px;
+        background: #00000082; 
+        width: 70%;
+        color: #fff;
+      }
+
+      #carousel > div.selected > div.p-3 > p.name{
+        margin-top: 6px;
+
+      }
+
+      #carousel > div.selected > div > p.name{
+        margin-top: -70px;
+      }
+
+      #carousel > div.selected > div > p{
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+      }
+
+      .ftco-footer {
+        font-size: 14px;
+        background: #141313;
+        padding: 6em 0;
+    }
+
+    .blog-entry .text .heading a {
+        color: #000000;
+    }
+
+    a:hover, a:focus {
+        text-decoration: none;
+        color: #c8a97e;
+        outline: none !important;
+    }
+
+    .blog-entry{
+        background-color: #fff;
+        line-height: 2;
+        transition: all .5s ease-in-out;
+    }
+
+    .bg-light-2{
+        background-color: #f3eeeedd;
+        padding: 50px 0 ;
+        transition: all .5s ease-in-out;
+    }
+
+    .bf{
+        height: 300px;
+    }
+
+    section.bg-light-2 > div > div > div > div > div.text{
+        padding: 15px;
+    }
+
+    .blog-entry .meta > div a {
+        color: rgba(0, 0, 0, 0.3);
+        font-size: 15px;
+    }
+
+    .float-left {
+        float: left !important;
+    }
+
+    .float-right {
+        float: right !important;
+    }
+
+    .blog-entry .text .read {
+        color: #000000;
+        font-size: 20px;
+    }
+
+    .meta-chat{
+        font-size: 20px;
+    }
+
+    .clearfix{
+        margin: 30px 0;
+    }
+
+    #prev , #next{
+        display: inline;
+        margin: 0 70px;
+        font-size: 34px;
+        color: #fff;
+    }
+
+    .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover{
+        color: #000;
+        cursor: pointer;
+    }
+
+    /*******/
+
+    footer > div > div > div > div > h2{
+        color: #fff;
+    }
+
+    footer > div > div > div > div{
+        display: inline-table;
+        font-size: 20px;
+    }
+
+    a.thumb-menu {
+        width: 100%;
+        height: 100px;
+        display: block;
+    }
+
+    footer > div > div > div:nth-child(3) > div > div.thumb.d-sm-flex ,footer > div > div > div:nth-child(3) > div > div.thumb.d-flex{
+        width: 50%;
+        display: inline-block;
+        font-family: "Arial Unicode MS";
+
+    }
+
+    footer > div > div > div:nth-child(3) > div{
+        width: 100%;
+    }
+
+    .ftco-heading-2{
+        text-align: center;
+        font-family: "Arial Unicode MS";
+
+    }
+
+    footer > div > div > div{
+        text-align: center;
+        font-family: "Arial Unicode MS";
+
+    }
+
+    .hero-wrap.hero-wrap-2 {
+        height: 450px;
+        background: url('../images/bg_2.png') 100% 100% ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
+    @media (max-width: 991.98px){
+        .hero-wrap {
+            background-position: center center !important;
+        }
+    }
+
+    section.hero-wrap.hero-wrap-2 > div.container > div > div > h1{
+        font-weight: 900;
+        color: #F44336;
+        font-size: 50px;
+        font-family: "Arial Unicode MS";
+
+    }
+
+    section.hero-wrap.hero-wrap-2 > div.container > div > div > p > span , section.hero-wrap.hero-wrap-2 > div.container > div > div > p > span > a{
+        color: #F44336;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+        font-size: 20px;
+        font-family: "Arial Unicode MS";
+
+    }
+
+    .stor{
+        margin-bottom: 50px ;
+    }
+
+    section:nth-child(5) > div > div > div > div > div > p > a.float-right.meta-chat , section:nth-child(4) > div > div > div > div > div > p > a.float-right.meta-chat {
+        transition: all 1s;
+    }
+
+    @media (min-width: 200px) {
+        .hidden-xs{
+            visibility: hidden;
+        }
+    } /*small*/
+
+    #sticky-header > div > div > div > div.col-sm-12.visible-md.visible-sm.visible-xs > div > div > a{
+        top: 0px;
+        float: left;
+        font-family: "Arial Unicode MS";
+
+    }
+
+    #sticky-header > div > div > div > div:nth-child(4) > div > a{
+        float: right;
+        font-family: "Arial Unicode MS";
+    
+    }
+
+
+    #sticky-header > div > div > div > div.col-sm-12.visible-md.visible-sm.visible-xs > div > div > ul > li > a{
+        float: right;
+        display: block;
+        width: 100%;
+        font-family: "Arial Unicode MS";
+        text-align: right;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.667);
+    }
+
+    #sticky-header > div > div > div > div.col-sm-12.visible-md.visible-sm.visible-xs > div > div > ul > li > a:hover{
+        background: #ddd;
+    }
+
+    #sticky-header > div > div > div > div.col-sm-12.visible-md.visible-sm.visible-xs > div > div > ul > li > a > span{
+        display: none;
+    }
+
+    #sticky-header > div > div > div > div.col-sm-12.visible-md.visible-sm.visible-xs > div > div > ul > li.slicknav_parent.slicknav_open > ul{
+        overflow: visible;
+        text-align: right;
+    }
+
+    #sticky-header > div > div > div > div.col-sm-12.visible-md.visible-sm.visible-xs > div > div > ul > li:nth-child(4) > a > a > i ,  #sticky-header > div > div > div > div.col-sm-12.visible-md.visible-sm.visible-xs > div > div > ul > li:nth-child(5) > a > a > i{
+        display:inline;
+    }
+
+    #sticky-header > div > div > div > div.col-sm-12.visible-md.visible-sm.visible-xs > div > div > ul > li:nth-child(4) > ul > li > a , #sticky-header > div > div > div > div.col-sm-12.visible-md.visible-sm.visible-xs > div > div > ul > li:nth-child(5) > ul > li > a{
+        text-align: right;
+        padding: 5px;
+    }
+
+    .breadcam_bg_2{
+       background: url(../img/banner/hero_4.jpg) fixed 100% 100%;
+       background-size: cover;
+       background-repeat: no-repeat;
+
+    }
+
+    .footer .footer_top , .footer .copy-right_text{
+        background: url(../img/banner/about_banner.png) fixed 100% 100% ;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        /* background: linear-gradient(to top, rgba(0, 0, 0, 0.65),rgba(180, 38, 38, 0.582)), url(../img/banner/about_banner.png) fixed 100% 100% ; */
+    }
+
+    body > footer > div.footer_top > div{
+        background: linear-gradient(to top , rgba(216, 0, 0, 0.418) , #000a );
+        padding:25px 0;
+    }
+
+    body > section > div > div.row > div.col-sm-12 > h2{
+        text-align: center;
+        font-family: "Arial Unicode MS";
+    }
+    
+
+    .form-contact .form-control{
+        text-align: right;
+        font-family: "Arial Unicode MS";
+        color: #000;
+    
+    }
+
+    .form-contact .form-control::placeholder{
+        color: rgb(155, 143, 143);
+    }
+
+    .boxed-btn{
+        float: right;
+        font-family: "Arial Unicode MS";
+    }
+    
+    
+    .footer .footer_top .subscribe-from input{
+        outline: none;
+        text-align: right;
+        font-family: "Arial Unicode MS";
+    
+    }
+
+    .footer .footer_top .subscribe-from button{
+        position: relative;
+        font-family: "Arial Unicode MS";
+    
+    }
+
+    * , .footer .footer_top .footer_widget .footer_title , .sub_text , .header-area .main-header-area .main-menu ul li a{    
+        font-family: "Arial Unicode MS";
+    }
+
+    
+    #sticky-header > div > div > div > div.col-sm-12.visible-md.visible-sm.visible-xs > div > div > ul{
+        top: 30px;
+        width: 98%;
+        padding: 12px;
+    }
+
+    body > footer > div > div > div > div.col-xl-6.col-md-6 > div > div > form > button:hover{
+        color: #615CFD;
+        border: 1px solid #615CFD;
+        background: #fff;
+    }
+
+    body > footer > div > div > div > div.col-xl-6.col-md-6 > div > div > form > button{
+        transition: all 1s;
+        border: 1px solid #615CFD;
+    }
+
+    #contactForm > div.form-group.mt-3{
+        margin-bottom: 70px;
+    }
+
+    .footer .footer_top .subscribe-from input::placeholder{
+        color: #fff ;
+    }
+
+    .media, .media-body{
+        text-align: right;
+    }
+
+    .brand{
+        color: #fff;
+        font-family: "font islamic color";
+    }
+
+    body > div > div > div > div > div > h3{
+        font-family: "tahoma";
+    }
+    
+    body > footer > div > div > div > div.col-xl-5.col-md-5.offset-xl-1 > div > ul > li:nth-child(2){
+        display: block;
+    }
+
+    .footer .socail_links ul li {
+        transition: all 1s;
+    }
+
+    .footer .socail_links ul li:nth-child(5) a:hover{
+        transition: all 1s;
+        background: linear-gradient(45deg, red, #fc00ff);
+    }
+
+    @media (max-width: 767px){
+        .slicknav_menu .slicknav_nav a i {
+            display: inline;
+        }
+
+        .footer .footer_top .subscribe-from button , .footer .footer_top .subscribe-from input{
+            display: block;
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 991px) and (min-width: 768px){
+        .slicknav_menu .slicknav_nav a i {
+            display: inline;
+        }
+    }
+
+    .comp-logo{
+        text-align: center;
+    }
+
+    .company{
+        width: 100%;
+    }
+
+    .about-company{
+        padding: 50px 0;
+        margin: 50px 0;
+
+    }
+
+    .comopany-text{
+        text-align: right;
+        padding: 50px 0;
+        font-family: "Arial Unicode MS";
+
+    }
+
+    .about-company-form{
+        margin: 100px 0;
+        padding: 50px 56px;
+        background-color: #000;
+    }
+
+    .sign{
+        background: #615CFD;
+        padding: 12px 40px;
+        display: inline-block;
+        font-size: 15px;
+        font-weight: 400;
+        color: #fff;
+        transition: all 1s ease-in-out ;
+        border: 1px solid #615CFD;
+        margin: 5px 0;
+    }
+
+    .sign:hover{
+        color: #615CFD;
+        border: 1px solid #615CFD;
+        background: #fff;
+    }
+
+    .Register{
+        display: block;
+        margin: 10px 0;
+        color: #ddd;
+    }
+
+    a{
+        cursor: pointer;
+    }
+
+    .about-company-form label{
+        color: #fff ;
+    }
+
+    .header-area .main-header-area .logo-img{
+        width: 45px;
+        border-radius: 50%;
+        transition: ease-in-out all 1s;
+        opacity: .5;
+    }
+
+    .header-area .main-header-area .logo-img:hover{
+        opacity: 1;
+    }
+
+    .footer-raw{
+        margin: 00;
+    }
+
+    .header-area .main-header-area .main-menu ul li .submenu li a{
+        color: #f00;
+    }
